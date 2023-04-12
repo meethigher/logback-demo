@@ -1,0 +1,6 @@
+# 配置日志地址
+logging:
+  config: classpath:logback-dev.xml
+  log:
+    home: log             # 日志文件保存位置
+    max-history-day: 30   # 日志文件保留天数

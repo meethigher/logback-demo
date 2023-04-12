@@ -1,0 +1,5 @@
+logging:
+  config: classpath:logback-diy.xml
+  # 相对路径则是相对当前应用路径，如log就是在jar包所在路径下存储
+  file:
+    path: ./log
